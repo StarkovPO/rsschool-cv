@@ -1,17 +1,18 @@
-# CV
-
 # Starkov Pavel 
 ===
+
 ### Contact information:
 **Phone:** +7 912-58-32-77-1
 **E-mail:** straiker666@gmail.com
 **Telegram:** p_starkov
+
 ===
 ### About me:
 
-I've started worked in IT company in september 2021 on position Junior QA Engineer. On work I learned Javascript for writing npm testing API after that I've got an ability to writing E2E test via playwright on JS. Now I'm middle QA Automation Engineer, but I wanna programming more that I get now.
 
+I've started worked in IT company in september 2021 on position Junior QA Engineer. On work I learned Javascript for writing npm testing API after that I've got an ability to writing E2E test via playwright on JS. Now I'm middle QA Automation Engineer, but I wanna programming more that I get now.
 My goal is become to fullstack developer on JS, who have skill in FE/BE/Testing. 
+
 ===
 ### Skills:
 
@@ -27,6 +28,7 @@ My goal is become to fullstack developer on JS, who have skill in FE/BE/Testing.
 * HTML
 * CSS
 * Axios
+
 ===
 ### Code example:
 
@@ -46,10 +48,13 @@ cc = ccFirst + cc4end;
 }
 ```
 ===
+
 ### Experience:
 1. Junior QA Engineer October 2021 - September 2022 Xsolla
 2. Middle QA Automation Engineer September 2022 - now Xsolla
+
 ===
+
 ### Education:
 **University:** PSTU, Math Modeling 2022, Bachelor of Applied Mathematics and Informatics
 **Courses:** 
@@ -57,7 +62,9 @@ cc = ccFirst + cc4end;
 2. Agile/Scrum Xsolla
 3. Manual QA Xsolla external course
 4. Docker Beginner
+
 ===
+
 ### Languages:
 - English:  B1
 - Russian:  C2
