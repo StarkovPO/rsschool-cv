@@ -35,13 +35,11 @@ My goal is become to fullstack developer on JS, who have skill in FE/BE/Testing.
 function maskify(cc) {
 const lenghtCC = cc.length;
 let ccFirst =''
-//   console.log(lenghtCC);
 if (lenghtCC > 3){
 let cc4end = cc.slice(lenghtCC-4);
 for (let i = 0; i < lenghtCC-4; i++){
   ccFirst += '#'
 }
-//   console.log(ccFirst)
 cc = ccFirst + cc4end;
 }
  return cc 
