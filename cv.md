@@ -31,41 +31,21 @@ My goal is become to fullstack developer on JS, who have skill in FE/BE/Testing.
 ### Code example:
 
 ```
-export const deleteAllUsers = async (token: string, projectId: string) => {
-  const getUsers = await axios.get(`https://test-login.xsolla.com/api/projects/${projectId}/users/search`, {
-    httpsAgent,
-    params: {
-      limit: 100,
-      order_dir: 'asc',
-      offset: 0,
-      order_column: 'username',
-    },
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  });
-  const usersList = getUsers.data.users.map(user => {
-    return user.id;
-  });
-  const deleteUser = async (userId: string) => {
-    return axios.delete(`https://test-login.xsolla.com/api/users/${userId}`, {
-      httpsAgent,
-      params: {
-        projectId,
-      },
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
-  };
-  await asyncForEach(usersList, async (userId: string) => {
-    await deleteUser(userId);
-    console.log('User deleted', userId);
-    await awaitTimeout(2000);
-  });
-
-  return 1;
-};
+// return masked string
+function maskify(cc) {
+const lenghtCC = cc.length;
+let ccFirst =''
+//   console.log(lenghtCC);
+if (lenghtCC > 3){
+let cc4end = cc.slice(lenghtCC-4);
+for (let i = 0; i < lenghtCC-4; i++){
+  ccFirst += '#'
+}
+//   console.log(ccFirst)
+cc = ccFirst + cc4end;
+}
+ return cc 
+}
 ```
 ===
 ### Experience:
